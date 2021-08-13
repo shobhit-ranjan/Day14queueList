@@ -8,6 +8,7 @@ public class QueueMain {
 		Queue.AppendData(56);
 		Queue.AppendData(30);
 		Queue.AppendData(70);
+		Queue.AppendData(73);
 		Queue.showData();
 
 	}

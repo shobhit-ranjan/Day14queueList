@@ -20,7 +20,7 @@ public class Queue<T> {
 	
 	public void showData() {
 		
-		System.out.println("Input are as follows");
+		System.out.println("here is your Queue ");
 		if(Size>0) {
 			Node<T> n = head;
 			while(n.next!=null) {
@@ -29,7 +29,7 @@ public class Queue<T> {
 			}
 			System.out.println(n.data);
 		}else {
-			System.out.println("Empty Queue");
+			System.out.println("No elements are present ");
 		}
 	}
 	
